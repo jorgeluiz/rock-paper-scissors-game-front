@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getToken } from "Utils/authentication";
-const baseUrl = "http://localhost/ventura-api/public/api";
+const baseUrl = "https://localhost:5001/api";
 
 export const init = (baseRouteUrl) => {
   let apiUrl = baseUrl;
